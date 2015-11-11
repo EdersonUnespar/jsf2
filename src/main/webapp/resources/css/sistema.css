@@ -30,3 +30,27 @@ div#conteudo {
 padding: 0px 10px;
 	
 }
+
+#login {
+	width: 250px;
+	margin: auto;
+	margin-top: 150px;
+	
+	
+	
+}
+
+#face{
+	background-image: url("http://www.lucaslenci.com.br/imagens_upload/3FUNDO_site.jpg");
+	
+	
+}
+
+.painel {
+	ckground-color: red;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	margin-top: 8px;
+    padding: 10px;	
+}
+
