@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+
+
+<h:head>
+	<meta charset="ISO-8859-1"/>
+		
+	<title><ui:insert name="titulo">CNH Solidaria</ui:insert></title>
+	<h:outputStylesheet library="css" name="sistema.css" />
+</h:head>
+<body>
+	<header>
+		<div id="logo">
+			<h:link>
+				<h:graphicImage library="images" name="logo-cnh.png"/>
+			</h:link>
+			
+		</div>
+	</header>
+</body>
+
+<div id="conteudo">
+<ui:insert name="corpo"/>
+
+</div>
+<p:separator style="margin-top:20px"/>
+
+<footer>
+Direitos reservados CNHSolidaria- 2015.
+</footer>
+
+</html>
